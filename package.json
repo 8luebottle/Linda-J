@@ -1,0 +1,32 @@
+{
+  "name": "linda-j",
+  "version": "0.0.0",
+  "description": "A Slack Bot",
+  "main": "src",
+  "scripts": {
+    "babel": "babel",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8luebottle/Linda-J.git"
+  },
+  "author": "8luebottle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8luebottle/Linda-J/issues"
+  },
+  "homepage": "https://github.com/8luebottle/Linda-J#readme",
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.5",
+    "@slack/web-api": "^5.10.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
